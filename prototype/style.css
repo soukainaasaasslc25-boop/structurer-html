@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+  font-family: Arial, sans-serif;
+   justify-content: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+  header {
+    display: flex;
+    background-color: rgb(248, 250, 251);
+    justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  height: 15px;
+  box-shadow: 1px solid rgb(196, 193, 181);
+
+    
+}
+header .logo{
+  display: flex;
+  font-size: 15px;
+  
+}
+header .logo h3{
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(23, 147, 248);
+  font-family:  sans-serif;
+} 
+
+
+
+header .logo img {
+ justify-items: center;
+
+ border-radius:50%;
+ width: 40px;
+ height: 40px;
+}
+
+
+
+ header nav ul  {
+  gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+   header nav ul li {
+    float: left;
+  }
+  
+   header nav ul li a {
+    display: block;
+    color: rgb(27, 22, 22);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ header nav  ul li a:hover {
+    color: rgb(46, 150, 241);
+    
+    
+  }
+
+  .hard {
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+  background-color:rgb(247, 247, 247);
+    
+  }
+  .biographique{
+    max-width: 50%;
+  }
+  .biographique h1{
+    font-size: 2.5rem;
+  margin: 10px 0;
+   
+  }
+  .biographique h1 span{
+    color: #ff6600;
+  }
+  .biographique h3{
+    font-size: 1.2rem;
+  color: #333;
+  }
+  .biographique h2{
+       font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 20px;
+  }
+  .biographique p{
+     font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  }
+
+ .img-hard img {
+    width: 280px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #e1dede;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons .btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-buttons .btn.black {
+  background: #333;
+  color: #fff;
+}
+
+.hero-buttons .btn.black:hover {
+  background: #000;
+}
+
+
+
+
+
+.hero-buttons .btn.orange {
+  background: #ff6600;
+  color: #fff;
+}
+
+.hero-buttons .btn.orange:hover {
+  background: #e05500;
+}
+.containerAbout{
+   display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 30px; /* <-- espace entre le texte et l'image */
+  margin-top: 20px;
+
+ 
+}
+
+.about-text{
+  max-width: 400px;
+  font-size: 1rem;
+  color: #333;
+}
+.about{
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 1%;
+  background-color: #f5f2ef;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+height: 100%;
+  overflow: hidden;
+  width: 90%;
+  padding: 20px;
+  gap: 30px;
+}
+.about h1{
+  margin-left: 3%;
+  margin-top: 3%;
+
+  border-radius: 10px;
+}
+.aboutimg img{
+  
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
+.about-text p{
+   color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* contact section  */
+
+
+.contact {
+  padding: 0 50px;
+  margin-bottom: 100px;
+
+}
+.contact h4{
+  font-size: 35px;
+
+}
+.contact .group{
+  display: flex;
+  gap: 50px;
+
+}
+.contact .group .text{
+  flex: 3;
+  margin-top: 30px;
+}
+
+
+.contact .group .form {
+  flex: 3;
+  width: 100%;
+}
+.contact .group .form form{
+flex: 3;
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+}
+.contact input,
+.contact textarea,
+.contact button {
+  padding: 10px;
+  border: 1px solid #41a5fc;
+  border-radius: 5px;
+}
+.contact button:hover {
+  background-color: #e05500;
+}
+.form{
+  border: 3px solid #ec9129;
+}
+  
+/*   skills or inrested zone  */
+
+
