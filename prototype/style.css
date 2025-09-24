@@ -246,5 +246,99 @@ gap: 15px;
 }
   
 /*   skills or inrested zone  */
+  /* .faverate{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 20px;
+
+  }
+  .faverate .card {
+    background-color: #666;
+    border-radius: 2px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+
+  }
+  .faverate :hover{
+    box-shadow: 0 4px 20px hsla(60, 74%, 53%, 0.102);
+  } */
+   .faverate {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+/* Individual card styling */
+.faverate .card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Hover effect */
+.faverate .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.faverate .card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Slight zoom effect on image hover */
+.faverate .card:hover img {
+  transform: scale(1.1);
+}
+
+/* Card title */
+.faverate .card h5 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Card text */
+.faverate .card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Optional: Add a subtle highlight effect on hover */
+.faverate .card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 102, 0, 0.1), rgba(255, 102, 0, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.faverate .card:hover::after {
+  opacity: 1;
+}
+
+
+
+
 
 
